@@ -1,0 +1,20 @@
+{
+    "name": "bluehaoran/hcc-podcast",
+    "description": "Scrape and reformat sermons page into a Podcast-app worthy XML feed.",
+    "type": "project",
+    "license": "Unlicensed",
+    "authors": [
+        {
+            "name": "Haoran Un",
+            "email": "haoran@untoyou.net"
+        }
+    ],
+    "require": {
+        "fabpot/goutte": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "HccPodcast\\": "src"
+        }
+    }
+}
